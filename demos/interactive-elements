@@ -30,4 +30,9 @@
           <button class="btn">Save</button>
           <button class="btn">Edit</button>
           <button class="btn">Edit</button>
+      </div>
+  </section>
+
+</body>
+</html>
 
