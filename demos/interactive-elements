@@ -23,21 +23,11 @@
 </head>
 
 <body>
-  <h1>Sidebar Layout</h1>
+  <h1>Interactive Elements</h1>
+  <section>
+      <h2>Buttons</h2>
+      <div>
+          <button class="btn">Save</button>
+          <button class="btn">Edit</button>
+          <button class="btn">Edit</button>
 
-  <div class="demo-1-grid-container">
-    <div class="demo-1-header">
-      <h1>Header</h1>
-    </div>
-
-    <div class="demo-1-left" style="background-color:#aaa;">Column</div>
-    <div class="demo-1-middle" style="background-color:#bbb;">Column</div>
-    <div class="demo-1-right" style="background-color:#ccc;">Column</div>
-
-    <div class="demo-1-footer">
-    <p>Footer</p>
-    </div>
-  </div>
-</body>
-
-</html>
