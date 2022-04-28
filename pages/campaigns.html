@@ -1,47 +1,43 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html class="no-js" lang="en">
+
 <head>
-<style>
-.item1 { grid-area: header; }
-.item2 { grid-area: menu; }
-.item3 { grid-area: main; }
-.item4 { grid-area: right; }
-.item5 { grid-area: footer; }
+  <meta charset="utf-8">
+  <title>Responsive Layouts</title>
+  <meta name="description" content="This site will serve as the hub for many sub responsive layouts">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    'header header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer footer footer';
-  gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
-}
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
 
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-}
-</style>
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
 </head>
+
 <body>
+  <h1>Header, equal columns and footer</h1>
 
-<h1>Grid Layout</h1>
+  <div class="demo-1-grid-container">
+    <div class="demo-1-header">
+      <h1>Header</h1>
+    </div>
 
-<p>This grid layout contains six columns and three rows:</p>
+    <div class="demo-1-left" style="background-color:#aaa;">Column</div>
+    <div class="demo-1-middle" style="background-color:#bbb;">Column</div>
+    <div class="demo-1-right" style="background-color:#ccc;">Column</div>
 
-<div class="grid-container">
-  <div class="item1">Header</div>
-  <div class="item2">Menu</div>
-  <div class="item3">Main</div>  
-  <div class="item4">Right</div>
-  <div class="item5">Footer</div>
-</div>
-
+    <div class="demo-1-footer">
+    <p>Footer</p>
+    </div>
+  </div>
 </body>
+
 </html>
-
-
