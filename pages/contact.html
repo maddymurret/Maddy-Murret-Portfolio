@@ -23,52 +23,31 @@
 </head>
 
 <body>
-  <div class="header-main-footer-demo-container">
-    <header class="header-main-footer-header">header</header>
-    <main class="header-main-footer-main">
-      <h1>Contact Me</h1>
-      <h2>Provide your information below</h2>
-      <form action="thank-you.html">
-        <ul>
-          <li>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="user_name" />
-          </li>
-          <li>
-            <label for="mail">E-mail:</label>
-            <input type="email" id="mail" name="user_email" required/>
-          </li>
-          <li>
-            <label for="msg">Message:</label>
-            <textarea id="msg" name="user_message"></textarea>
-          </li>
-        </ul>
-        <input type="submit" value="Submit">
-      </form>
-
-      <h2>Signin form</h2>
-      <form action="thank-you.html" method="post">
-        <div class="">
-          <label for="uname"><b>Username</b></label>
-          <input type="text" placeholder="Enter Username" name="uname" required>
-
-          <label for="psw"><b>Password</b></label>
-          <input type="password" placeholder="Enter Password" name="psw" required>
-
-          <button type="submit">Login</button>
-          <label>
-            <input type="checkbox" checked="checked" name="remember"> Remember me
-          </label>
-        </div>
-
-        <div class="">
-          <button type="button" class="">Cancel</button>
-          <span class="">Forgot <a href="#">password?</a></span>
-        </div>
-      </form>
-    </main>
-    <footer class="header-main-footer-footer">footer</footer>
-  </div>
+  <header>
+    <h1>Madelyn Murret</h1>
+    <nav class="main-nav">
+      <div class="sidebar-links">
+        <a class="links" href="pages/about.html">About</a>
+        <a class="links" href="pages/contact.html">Contact</a>
+        <a class="links" href="pages/campaigns.html">Campaigns</a>
+        <a class="links" href="pages/work.html">Workouts</a>
+      </div>
+    </nav>
+</header>
 </body>
 
 </html>
+
+<section class="contact" id="contact">
+  <h2>Contact me</h2>
+  <form action="https://formspree.io/jrandomhacker@example.com"
+        method="POST">
+      <label for="contact-form-name">Your Name</label>
+      <input type="text" name="name" id="contact-form-name" placeholder="Grace Hopper">
+      <label for="contact-form-email">Your Email Address</label>
+      <input type="email" name="_replyto" id="contact-form-email" placeholder="grace@example.com">
+      <label for="contact-form-message">Message</label>
+      <textarea name="message" id="contact-form-message"></textarea>
+      <input type="submit" value="Send message">
+  </form> 
+</section>
