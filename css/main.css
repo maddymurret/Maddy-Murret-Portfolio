@@ -261,6 +261,11 @@
     }
   }
   
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
   .about-me-paragraphy{
     color: black;
     display: flex;
@@ -319,5 +324,8 @@
     padding: 8px;
   }
   
+  .project-image {
+    max-width: 200px;
+  }
 
   
