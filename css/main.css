@@ -264,6 +264,7 @@
   img {
     max-width: 200px;
     height: auto; 
+    width: 100%; 
   }
   
   .about-me-paragraphy{
@@ -325,7 +326,6 @@
   }
   
   .project-image {
-    max-width: 200px;
-  }
+    width: 100%  }
 
   
