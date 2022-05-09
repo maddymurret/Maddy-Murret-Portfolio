@@ -342,13 +342,15 @@
   }
 
   .fitness {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    background-color: #7f1096;
-    position: absolute;
-    top: 132px;
-    left: 0;
-    right: 0;  
-  }
+    display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}  
 
+
+  .workouts {
+    padding-left: 8px;
+  }
