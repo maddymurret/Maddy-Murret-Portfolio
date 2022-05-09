@@ -328,4 +328,27 @@
   .project-image {
     width: 100%  }
 
-  
+    body {
+      font-family: 'Trebuchet MS', sans-serif;
+      margin-bottom: 200px;
+    }
+    
+    .trebuchetms {
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+    
+  .contact {
+    background-color: #b3d4fc;
+  }
+
+  .fitness {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: #7f1096;
+    position: absolute;
+    top: 132px;
+    left: 0;
+    right: 0;  
+  }
+
