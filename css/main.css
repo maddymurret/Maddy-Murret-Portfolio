@@ -338,7 +338,7 @@
     }
     
   .contact {
-    background-color: #b3d4fc;
+    background-color: plum;
   }
 
   .fitness {
@@ -355,6 +355,18 @@
     padding-left: 8px;
   }
 
-.project-image {
-  max-width: 200px;
-}
+  .about {
+    background-color: plum;
+  }
+
+  .fitness {
+    background-color: plum;
+  }
+
+  .project-stack {
+    background-color: plum;
+  }
+
+  .resume {
+    width: 200%;
+  }
